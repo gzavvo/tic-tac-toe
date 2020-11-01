@@ -3,10 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <script src="script.js"></script>
+    <div id="app">
+      <header>
+        <h1>Tic-Tac-Toe</h1>
+        <p id="tagline">A simple Tic-Tac-Toe game in browser.</p>
+      </header>
+      <main>
+        <div id="menu">
+          <button id="newgame" onclick="gameController.newGame()">New Game</button>
+        </div>
+        <div id="gameboard">
+          <div class="cell" id="cell0" value="0">
+          </div>
+          <div class="cell" id="cell1">
+          </div>
+          <div class="cell" id="cell2">
+          </div>
+          <div class="cell" id="cell3">
+          </div>
+          <div class="cell" id="cell4">
+          </div>
+          <div class="cell" id="cell5">
+          </div>
+          <div class="cell" id="cell6">
+          </div>
+          <div class="cell" id="cell7">
+          </div>
+          <div class="cell" id="cell8">
+          </div>
+        </div>
+      </main>
+      <footer>
+        <a href="https://github.com/gzavvo/tic-tac-toe">
+          <img src="./images/GitHub-Mark-Shape.svg"
+               alt="GitHub Mark Logo">
+        </a>
+      </footer>
+      <script src="script.js"></script>
+    </div>
   </body>
 </html>
 
