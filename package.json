@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A simple tic-tac-toe game in the browser, using only vanilla JS.",
+  "main": "script.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --brower 'FirefoxDeveloperEdition'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzavvo/tic-tac-toe.git"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "javascript"
+  ],
+  "author": "gzavvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzavvo/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/gzavvo/tic-tac-toe#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
