@@ -4,7 +4,7 @@
   "description": "A simple tic-tac-toe game in the browser, using only vanilla JS.",
   "main": "script.js",
   "scripts": {
-    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --brower 'FirefoxDeveloperEdition'",
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser 'FirefoxDeveloperEdition'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
