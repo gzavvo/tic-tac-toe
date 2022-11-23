@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/gzavvo/tic-tac-toe#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.27.10"
   }
 }
